@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.a{
+  background-color: #323232;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.grid{
+  display: grid;
+  grid-gap: 10px;
+
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 80px);
+}
+
+.button{
+  background-color: #e48900;
+  border-radius: 8px;
+  border: none;
+
+  font-size: 24px;
+}
+
+.cont{
+  align-items: center;
+  justify-content: center;
+}
